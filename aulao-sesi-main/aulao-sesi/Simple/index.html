@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+<body>
+    <h1>Atividades Simples</h1>
+    <main>
+        <section class="first">
+            <h2>Calculo Simples</h2>
+            <input type="Number" id="num1" placeholder="Digite o primeiro numero">
+            <input type="Number" id="num2" placeholder="Digite o segundo numero">
+            <button onclick="calcular()">CALCULAR</button>
+            <p id="res"></p>
+        </section>
+        <section class="second">
+            <h2>Media Simples (6)</h2>
+            <input type="number" id="nota1" placeholder="Insira a primeira nota:">
+            <input type="number" id="nota2" placeholder="Insira a segunda nota:">
+            <input type="number" id="nota3" placeholder="Insira a terceira nota:">
+            <button onclick="media()">Realizar media</button>
+            <p id="resposta"></p>
+        </section>
+        <section>
+            <h2>Contador javascript</h2>
+            <form id="contadorForm">
+                <label for="numeroInput">Informar o número para loop</label>
+                <input type="number" id="numeroInput" required>
+                <button type="button" onclick="contar()">Contar</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
